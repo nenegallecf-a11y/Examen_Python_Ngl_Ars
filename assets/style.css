@@ -1,0 +1,56 @@
+/* champ principal */
+.Select-control {
+    background-color: rgba(255,255,255,0.25) !important;
+    border: 4px solid rgba(255,255,255,0.75) !important;
+    border-radius: 999px !important;
+    color: #1f1f1f !important;
+}
+
+/* texte affiché : Tous / Toutes */
+.Select-value-label {
+    color: #1f1f1f !important;
+}
+
+.Select--single > .Select-control .Select-value {
+    color: #1f1f1f !important;
+    line-height: 42px !important;
+}
+
+.Select-placeholder {
+    color: #1f1f1f !important;
+}
+
+/* flèche */
+.Select-arrow {
+    border-top-color: #1f1f1f !important;
+}
+
+/* menu déroulant */
+.Select-menu-outer {
+    background-color: rgba(255,255,255,0.92) !important;
+    border: 4px solid rgba(255,255,255,0.75) !important;
+    border-radius: 18px !important;
+    color: #1f1f1f !important;
+}
+
+/* options */
+.Select-option {
+    background-color: rgba(255,255,255,0.92) !important;
+    color: #1f1f1f !important;
+}
+
+.Select-option.is-focused {
+    background-color: rgba(220,220,220,0.95) !important;
+    color: #1f1f1f !important;
+}
+
+/* variante virtualisée souvent utilisée par Dash */
+.VirtualizedSelectOption {
+    background-color: rgba(255,255,255,0.92) !important;
+    color: #1f1f1f !important;
+}
+
+.VirtualizedSelectFocusedOption {
+    background-color: rgba(220,220,220,0.95) !important;
+    color: #1f1f1f !important;
+}
